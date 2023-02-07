@@ -11,6 +11,12 @@
 </head>
 
 <body>
+
+  <div class="heading">
+    <h1>Drag & Drop Project Manager</h1>
+    <h3>Draggy & droppy your active project into the finished projects once it's done :)</h3>
+  </div>
+
   <template id="project-input">
     <form>
       <div class="form-control">
@@ -29,7 +35,11 @@
     </form>
   </template>
   <template id="single-project">
-    <li></li>
+    <li draggable="true">
+      <h2></h2>
+      <h3></h3>
+      <p></p>
+    </li>
   </template>
   <template id="project-list">
     <section class="projects">
